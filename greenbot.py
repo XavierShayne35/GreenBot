@@ -100,4 +100,4 @@ async def tips(ctx):
     await ctx.send(f'Ricla il più possibile')
     await ctx.send(f'Se vuoi delle statistiche ecco: https://www.europarl.europa.eu/news/it/headlines/society/20180328STO00751/statistiche-sulla-gestione-dei-rifiuti-in-europa-infografica-con-fatti-e-cifre')
 #------------------------------------------------------------------------------------------------------------------
-bot.run("MTE4MzA2ODg0MjQ4NjkzOTgzMA.G0xthi.6CVlhddHlq7mgL4SFjgKPTulntf73GxjV8Ma0s")
+bot.run("MTE4MzA2ODg0MjQ4NjkzOTgzMA.GkipzE.kR5wyGNS4-cakSd2Lccr8n3Ub_UVrAhJ8rAPSk")
