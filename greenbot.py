@@ -20,10 +20,12 @@ async def helpme(ctx):
     await ctx.send(f'Il comando %list ti da una lista di alimenti e di dove devi buttarli')
     await ctx.send(f'Il comando %info ti da delle informazioni sui rifiuti che ti possono essere molto utili')
     await ctx.send(f'Il comando %tips ti da dei consigli molto utili')
+    await ctx.send(f'Se vuoi delle statistiche ecco: https://www.europarl.europa.eu/news/it/headlines/society/20180328STO00751/statistiche-sulla-gestione-dei-rifiuti-in-europa-infografica-con-fatti-e-cifre')
 #------------------------------------------------------------------------------------------------------------------
 @bot.command()
 async def list(ctx):
     await ctx.send(f'Per te una lista dei rifiuti attualmente registrati. È sempre modificabile con altri comandi che trovi con %helpme')
+    await ctx.send(f'Se vuoi delle statistiche ecco: https://www.europarl.europa.eu/news/it/headlines/society/20180328STO00751/statistiche-sulla-gestione-dei-rifiuti-in-europa-infografica-con-fatti-e-cifre')
     await ctx.send(f'-Imballaggi-')
     imballaggi = {
         "imballaggio di polistirolo":"plastica",
@@ -55,10 +57,12 @@ async def list(ctx):
         "batterie":"sono rifiuti pericolosi, quinid cerca nella zona un centro di raccolta pile",
     }
     await ctx.send(oggetti_vari)
+    await ctx.send(f'Fonti varie, eccone una:https://www.buonalavita.it/dovelobutto/')
 #------------------------------------------------------------------------------------------------------------------
 @bot.command()
 async def info(ctx):
     await ctx.send(f'Per te una lista di info sulle cose che buttiamo per strada')
+    await ctx.send(f'Se vuoi delle statistiche ecco: https://www.europarl.europa.eu/news/it/headlines/society/20180328STO00751/statistiche-sulla-gestione-dei-rifiuti-in-europa-infografica-con-fatti-e-cifre')
     ogg_decomp = {
         "fazzoletti":"fino a 3 mesi",
         "giornali":"fino a 3 mesi",
@@ -85,6 +89,7 @@ async def info(ctx):
         "vetro":"oltre 1000 anni"
     }
     await ctx.send(ogg_decomp)
+    await ctx.send(f'Fonte:https://discarica.roma.it/decomposizione-rifiuti/')
 #------------------------------------------------------------------------------------------------------------------
 @bot.command()
 async def tips(ctx):
@@ -93,5 +98,6 @@ async def tips(ctx):
     await ctx.send(f'Quando differenzi la plastica togli le etichette')
     await ctx.send(f'Nella carta non buttare gli scontrini e i fazzoletti')
     await ctx.send(f'Ricla il più possibile')
+    await ctx.send(f'Se vuoi delle statistiche ecco: https://www.europarl.europa.eu/news/it/headlines/society/20180328STO00751/statistiche-sulla-gestione-dei-rifiuti-in-europa-infografica-con-fatti-e-cifre')
 #------------------------------------------------------------------------------------------------------------------
 bot.run("MTE4MzA2ODg0MjQ4NjkzOTgzMA.G0xthi.6CVlhddHlq7mgL4SFjgKPTulntf73GxjV8Ma0s")
